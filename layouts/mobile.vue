@@ -1,21 +1,21 @@
 <template>
-  <div class="default">
+  <div class="mobile">
     <nuxt />
   </div>
 </template>
 
 <style lang="scss">
-.default {
+.mobile {
   font-family: 'inter-regular', sans-serif;
-  font-size: 16px;
+  font-size: 80px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  color: #333;
-  background: yellow;
+  color: pink;
+  background: #3b8070;
 }
 
 *,
@@ -29,6 +29,7 @@
   font-family: 'inter-bold', sans-serif;
   display: block;
   text-align: left;
+  color: pink;
 }
 
 .button--green {

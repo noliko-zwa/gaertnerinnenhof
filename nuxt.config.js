@@ -24,7 +24,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [{ src: '@/assets/css/style.scss' }],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -45,7 +45,12 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxtjs/device',
   ],
+
+  router: {
+    middleware: ['mobile'],
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
