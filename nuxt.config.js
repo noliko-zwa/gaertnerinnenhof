@@ -8,6 +8,7 @@ export default {
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
    */
+  target: 'static',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -25,6 +26,7 @@ export default {
    ** Global CSS
    */
   css: [],
+  components: true,
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -45,6 +47,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
+    '@nuxt/content',
   ],
   /*
    ** Build configuration

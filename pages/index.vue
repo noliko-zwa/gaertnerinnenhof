@@ -1,39 +1,18 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        y
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <Home />
+      <About />
+      <Offering />
+      <Assistance />
+      <Market />
+      <Contact />
     </div>
   </div>
 </template>
-
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo,
-  },
+  layouts: 'default',
 }
 </script>
 
