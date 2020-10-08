@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <div class="logo">
-      <img src="../static/img/logo.svg" alt="logo" />
+      <h1>
+        <img src="../static/img/logo.svg" alt="logo" />
+      </h1>
     </div>
   </div>
 </template>

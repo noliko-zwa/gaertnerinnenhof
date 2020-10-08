@@ -69,10 +69,6 @@ export default {
   background-size: cover;
   // background-color: rgb(131, 151, 83);
 
-  h1,
-  h2,
-  h3,
-  h4,
   .nav-bar {
     font-family: 'inter-bold', 'Helvetica Neue', sans-serif;
   }
