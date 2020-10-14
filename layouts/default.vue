@@ -69,10 +69,6 @@ export default {
   background-size: cover;
   // background-color: rgb(131, 151, 83);
 
-  .nav-bar {
-    font-family: 'inter-bold', 'Helvetica Neue', sans-serif;
-  }
-
   #nav-icon {
     display: none;
     width: 45px;
@@ -152,6 +148,7 @@ export default {
   }
 
   .nav-bar {
+    font-family: 'inter-bold', 'Helvetica Neue', sans-serif;
     margin: 87px 50px 0;
     line-height: 25px;
     font-size: 18px;
