@@ -1,6 +1,8 @@
 <template>
-  <div class="about">hof</div>
-  <SubmenuHeader />
+  <div class="about">
+    hof
+    <SubmenuHeader />
+  </div>
 </template>
 
 <style lang="scss" scoped>
