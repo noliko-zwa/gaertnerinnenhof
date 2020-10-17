@@ -1,13 +1,17 @@
 <template>
-  <div class="submenu-header">
+  <figure class="submenu-header">
     <div class="submenu-header-img">
-      <img v-bind:src="img" alt="img.alt">
+      <img :src="barImg" alt="img.alt" />
     </div>
-  </div>
+    <h2>{{ header }}</h2>
+  </figure>
 </template>
 
 <script>
-  export default {
-    props : ['img'],
-  }
+export default {
+  props: {
+    barImg: String,
+    header: String,
+  },
+}
 </script>
