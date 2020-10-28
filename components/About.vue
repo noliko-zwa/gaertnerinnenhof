@@ -6,6 +6,10 @@
       :headerImgText="data.headerImgText"
       :header="data.text01_header"
     />
+    <TextBox
+      :textHeader="data.text01_header"
+      :textContent="data.text01"
+    />
   </div>
 </template>
 <script>

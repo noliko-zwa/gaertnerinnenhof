@@ -22,7 +22,7 @@ export default {
     },
     header: {
       type: String,
-      default: 'welcome--',
+      default: 'welcome',
       required: false,
     },
   },
