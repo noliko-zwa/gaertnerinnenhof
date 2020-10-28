@@ -1,18 +1,23 @@
 <template>
   <div class="container">
     <div>
-      <Home />
-      <About />
-      <Offering />
-      <Assistance />
+      <Home :data="datas.home" />
+      <About :data="datas.hof" />
+      <Offering :data="datas.angebot" />
+      <Assistance :data="datas.vermarktung" />
       <Market />
       <Contact />
     </div>
   </div>
 </template>
+
 <script>
+import datas from '@/assets/json/data.json'
 export default {
-  layouts: 'default',
+  layout: 'default',
+  asyncData({ params }) {
+    return { datas }
+  },
 }
 </script>
 
