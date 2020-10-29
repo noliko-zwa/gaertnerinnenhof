@@ -10,6 +10,14 @@
       :textHeader="data.text01_header"
       :textContent="data.text01"
     />
+    <Gallery
+      :imageHeader="data.galleryText"
+      :images="data.galleryImg"
+    />
+    <TextBox
+      :textHeader="data.text02_header"
+      :textContent="data.text02"
+    />
   </div>
 </template>
 <script>

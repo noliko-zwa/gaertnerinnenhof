@@ -1,2 +1,5 @@
-@import './_font.scss';
+@import './_font';
 @import './breakpoint_mixin';
+@import './style';
+
+@import './components/gallery';
