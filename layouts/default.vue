@@ -64,6 +64,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background-image: url('../static/img/background-img.png');
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
