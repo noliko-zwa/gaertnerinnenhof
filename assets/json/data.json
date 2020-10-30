@@ -125,7 +125,40 @@
     "headerText": "Vermarktung",
     "headerImg": "/img/headerImg/3_Vermarktung.jpg",
     "text01_header": "Loem Ipsum",
-    "text01": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    "text01": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "table01_header": "Loem Ipsum",
+    "table01": [
+      {
+        "märkte": "Kreuzberg Berlin",
+        "wochentag": "freitag",
+        "uhrzeit": "12.00 - 18.00 Uhr"
+      },
+      {
+        "märkte": "Kreuzberg Berlin",
+        "wochentag": "freitag",
+        "uhrzeit": "12.00 - 18.00 Uhr"
+      },
+      {
+        "märkte": "Kreuzberg Berlin",
+        "wochentag": "freitag",
+        "uhrzeit": "12.00 - 18.00 Uhr"
+      },
+      {
+        "märkte": "Kreuzberg Berlin",
+        "wochentag": "freitag",
+        "uhrzeit": "12.00 - 18.00 Uhr"
+      },
+      {
+        "märkte": "Kreuzberg Berlin",
+        "wochentag": "freitag",
+        "uhrzeit": "12.00 - 18.00 Uhr"
+      },
+      {
+        "märkte": "Kreuzberg Berlin",
+        "wochentag": "freitag",
+        "uhrzeit": "12.00 - 18.00 Uhr"
+      }
+    ]
   },
   "mitarbeit": {
     "headerText": "mitarbeit",

@@ -55,7 +55,7 @@ export default {
 .navbar-position {
   display: flex;
   font-family: 'inter-regular', 'Helvetica Neue', Arial, sans-serif;
-  color: #fff;
+  color: $color-white;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

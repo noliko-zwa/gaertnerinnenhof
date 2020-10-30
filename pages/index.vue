@@ -4,8 +4,8 @@
       <Home :data="datas.home" />
       <About :data="datas.hof" />
       <Offering :data="datas.angebot" />
-      <Assistance :data="datas.vermarktung" />
-      <Market />
+      <Assistance />
+      <Market :data="datas.vermarktung"/>
       <Contact />
     </div>
   </div>

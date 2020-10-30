@@ -1,9 +1,20 @@
 <template>
-  <div class="market">Vermarktung</div>
+  <div class="market">
+    <SubmenuHeader
+      :barImg="data.headerImg"
+      :headerImgText="data.headerImgText"
+      :header="data.text01_header"
+    />
+    <Table :header="data.table01_header" :items="data.table01"/>
+  </div>
 </template>
-
-<style lang="scss" scoped>
-.market {
-  color: rgb(192, 255, 195);
+<script>
+export default {
+  props: {
+    data: {
+      type: Array,
+      required: true,
+    },
+  },
 }
-</style>
+</script>
