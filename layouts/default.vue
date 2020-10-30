@@ -168,10 +168,14 @@ export default {
 
 @include bp-max-medium() {
   .navbar-position {
+    flex-direction: column-reverse;
+    position: relative;
     #nav-icon {
       z-index: 100;
       display: block;
-      margin: 30px 20px 0;
+      position: sticky;
+      top: 50px;
+      margin-right: 10%;
     }
     .nav-bar {
       display: none;

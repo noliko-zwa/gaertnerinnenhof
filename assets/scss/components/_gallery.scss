@@ -1,15 +1,23 @@
-.carousel-indicators{
-  margin-top: 16px !important;
+.gallery {
+  margin-bottom: 60px;
+  .carousel-indicators{
+    bottom: -60px;
 
-  li {
-    width: 20px;
-    border: solid 1px transparent;
-    border-radius: 10px;
-    height: 20px;
-    margin-right: 13px;
-    margin-left: 13px;
-    background-color: #fff;
-    border-top: initial;
-    border-bottom: initial;
+    li {
+      width: 20px;
+      border: solid 1px transparent;
+      border-radius: 10px;
+      height: 20px;
+      margin-right: 13px;
+      margin-left: 13px;
+      background-color: #fff;
+      border-top: initial;
+      border-bottom: initial;
+    }
   }
+
+  .carousel-inner {
+    max-height: 560px;
+  }
+
 }
