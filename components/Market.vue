@@ -3,7 +3,7 @@
     <SubmenuHeader
       :barImg="data.headerImg"
       :headerImgText="data.headerImgText"
-      :header="data.text01_header"
+      :header="data.headerText"
     />
     <Table :header="data.table01_header" :items="data.table01"/>
   </div>

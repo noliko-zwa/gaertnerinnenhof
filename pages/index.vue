@@ -4,9 +4,9 @@
       <Home :data="datas.home" />
       <About :data="datas.hof" />
       <Offering :data="datas.angebot" />
-      <Assistance />
       <Market :data="datas.vermarktung"/>
-      <Contact />
+      <Assistance :data="datas.mitarbeit" />
+      <Contact :data="datas.kontakt"/>
     </div>
   </div>
 </template>

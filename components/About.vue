@@ -1,10 +1,9 @@
 <template>
   <div class="about">
-    hof
     <SubmenuHeader
       :barImg="data.headerImg"
       :headerImgText="data.headerImgText"
-      :header="data.text01_header"
+      :header="data.headerText"
     />
     <TextBox
       :textHeader="data.text01_header"

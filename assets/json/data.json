@@ -203,8 +203,16 @@
       }
     ]
   },
-  "impressum": {
+  "kontakt": {
     "headerText": "impressum",
+    "headerImg": "/img/headerImg/6_Impressum.jpg",
+    "text01_header": "Loem Ipsum",
+    "text01": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "text02_header": "Loem Ipsum",
+    "text02": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+  },
+  "impressum": {
+    "headerText": "IMPRESSUM / DATENSCHUTZ",
     "headerImg": "/img/headerImg/6_Impressum.jpg",
     "text01_header": "Loem Ipsum",
     "text01": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
