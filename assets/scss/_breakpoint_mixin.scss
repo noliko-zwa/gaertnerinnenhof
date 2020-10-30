@@ -1,9 +1,7 @@
-
 $bp-small: 576px;
 $bp-medium: 768px;
-$bp-large:  1200px;
-
-@mixin bp ($breakpoint) {
+$bp-large: 1200px;
+@mixin bp($breakpoint) {
   @media screen and (min-width: $breakpoint) {
     @content;
   }
@@ -39,12 +37,12 @@ $bp-large:  1200px;
   }
 }
 
-
 @mixin bp-large() {
   @include bp($bp-large) {
     @content;
   }
 }
+
 @mixin bp-max-large() {
   @include bp($bp-large) {
     @content;

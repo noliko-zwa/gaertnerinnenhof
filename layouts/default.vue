@@ -155,6 +155,11 @@ export default {
     text-transform: uppercase;
     text-align: right;
 
+    .nav-bar--menu {
+      position: sticky;
+      top: 70px;
+    }
+
     p {
       margin-top: 0;
       margin-bottom: 2.2rem;
