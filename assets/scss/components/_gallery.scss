@@ -1,5 +1,7 @@
 .gallery {
   margin-bottom: 60px;
+  padding: $spaceing-middle 0;
+
   .carousel-indicators {
     bottom: -60px;
     li {
@@ -16,5 +18,19 @@
   }
   .carousel-inner {
     max-height: 560px;
+  }
+}
+
+@include bp-max-small() {
+  .gallery {
+    .carousel-indicators {
+      li {
+        width: 16px;
+        border-radius: 8px;
+        height: 16px;
+        margin-right: 0;
+        margin-left: 10px;
+      }
+    }
   }
 }

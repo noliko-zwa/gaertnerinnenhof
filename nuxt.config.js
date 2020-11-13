@@ -46,8 +46,7 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt',
-    '@nuxt/content',
+    'bootstrap-vue/nuxt'
   ],
   /*
    ** Build configuration

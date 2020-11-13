@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="imprint container">
       <SubmenuHeader
         :barImg="datas.impressum.headerImg"
         :headerImgText="datas.impressum.headerImgText"

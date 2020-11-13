@@ -1,9 +1,8 @@
 <template>
   <div class="text-box">
-    <div class="text-box--wrapper">
+    <div class="text-box--wrapper wrapper">
       <h3>{{ textHeader }}</h3>
-      <div class="text-box--content">
-        {{ textContent }}
+      <div class="text-box--content" v-html="textContent">
       </div>
     </div>
   </div>

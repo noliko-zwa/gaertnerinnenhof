@@ -1,5 +1,8 @@
 <template>
   <div class="gallery">
+    <div class="header wrapper">
+      <h3> {{ imageHeader }}</h3>
+    </div>
     <b-carousel
       id="carousel-1"
       v-model="slide"

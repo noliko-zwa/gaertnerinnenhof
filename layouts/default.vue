@@ -3,8 +3,8 @@
     <nuxt />
     <div
       id="nav-icon"
-      :class="{ open: showMobileMenu }"
-      @click="showMobileMenu = !showMobileMenu"
+      :class="{ open: showMenu }"
+      @click="showMenu = !showMenu"
     >
       <span></span>
       <span></span>
@@ -13,8 +13,8 @@
     </div>
     <div
       class="nav-bar"
-      :class="{ open: showMobileMenu }"
-      @click="showMobileMenu = !showMobileMenu"
+      :class="{ open: showMenu }"
+      @click="showMenu = !showMenu"
     >
       <transition name="mobileMenu">
         <div class="nav-bar--menu">
@@ -37,7 +37,7 @@ export default {
   transition: 'mobileMenu',
   data: () => {
     return {
-      showMobileMenu: false,
+      showMenu: false,
     }
   },
 }
@@ -54,6 +54,8 @@ export default {
 
 .navbar-position {
   display: flex;
+  flex-direction: column-reverse;
+  position: relative;
   font-family: 'inter-regular', 'Helvetica Neue', Arial, sans-serif;
   color: $color-white;
   font-size: 16px;
@@ -71,11 +73,14 @@ export default {
   // background-color: rgb(131, 151, 83);
 
   #nav-icon {
-    display: none;
+    z-index: 100;
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 25px;
     width: 45px;
     height: 45px;
-    position: relative;
-    margin: 50px auto;
+    margin: 50px 30px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -149,16 +154,33 @@ export default {
   }
 
   .nav-bar {
+    display: none;
+    width: 100%;
     font-family: 'inter-bold', 'Helvetica Neue', sans-serif;
-    margin: 87px 50px 0;
+    margin: 87px 50px 0 50px;
     line-height: 25px;
     font-size: 18px;
     text-transform: uppercase;
     text-align: right;
 
-    .nav-bar--menu {
+    &.open {
+      z-index: 99;
+      display: block;
       position: sticky;
-      top: 70px;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+      background-image: url('../static/img/background-img.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.9;
+;
+    }
+
+    .nav-bar--menu {
+      margin: 150px 54px 0;
     }
 
     p {
@@ -170,9 +192,18 @@ export default {
       }
     }
   }
+
+  .mobileMenu-enter-active,
+  .mobileMenu-leave-active {
+    transition: opacity 1.3s ease-out;
+  }
+  .mobileMenu-enter,
+  .mobileMenu-leave-to {
+    opacity: 0.6;
+  }
 }
 
-@include bp-max-medium() {
+/* @include bp-max-middle() {
   .navbar-position {
     flex-direction: column-reverse;
     position: relative;
@@ -185,8 +216,9 @@ export default {
     }
     .nav-bar {
       display: none;
+      width: 100%;
       &.open {
-        z-index: 1;
+        z-index: 99;
         display: block;
         position: absolute;
         width: 100%;
@@ -200,6 +232,7 @@ export default {
 
       .nav-bar--menu {
         margin: 100px 54px 0;
+        top: 100px;
       }
     }
     .mobileMenu-enter-active,
@@ -211,5 +244,5 @@ export default {
       opacity: 0;
     }
   }
-}
+} */
 </style>

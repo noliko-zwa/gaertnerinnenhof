@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
-    <div>
+  <div class="index container">
+    <div class="index-wrapper">
       <Home :data="datas.home" />
       <About :data="datas.hof" />
       <Offering :data="datas.angebot" />
-      <Market :data="datas.vermarktung"/>
+      <Market :data="datas.vermarktung" />
       <Assistance :data="datas.mitarbeit" />
-      <Contact :data="datas.kontakt"/>
+      <Contact :data="datas.kontakt" />
     </div>
   </div>
 </template>
@@ -20,14 +20,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
-</style>

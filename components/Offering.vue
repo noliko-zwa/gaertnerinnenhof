@@ -30,8 +30,3 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped>
-.offering {
-  color: palevioletred;
-}
-</style>

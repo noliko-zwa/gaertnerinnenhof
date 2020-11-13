@@ -22,9 +22,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped>
-.assistance {
-  color: orangered;
-}
-</style>

@@ -1,9 +1,9 @@
 <template>
   <div class="table">
-    <div class="table--header">
+    <div class="table--header wrapper">
       <h3>{{ header }}</h3>
     </div>
-    <div class="table--wrapper">
+    <div class="table--wrapper wrapper">
       <b-table striped hover :items="items"></b-table>
     </div>
   </div>
@@ -17,7 +17,7 @@ export default {
       require: false,
     },
     items: {
-      type: Object,
+      type: Array,
       require: true,
     },
   },

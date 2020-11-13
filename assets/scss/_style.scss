@@ -1,5 +1,14 @@
-// font-size setting
+//color
+$color-white: #fff;
+$color-white-transparent: rgba(255, 255, 255, 0.1);
 
+//spacing
+$spaceing-large: 140px;
+$spaceing-middle: 68px;
+$spaceing-small: 41px;
+$spaceing-mobile: 20px;
+
+// font-size setting
 h1,
 h2,
 h3,
@@ -17,11 +26,13 @@ h1 {
 h2 {
   font-size: 42px;
   text-transform: uppercase;
+  margin: $spaceing-middle 0;
 }
 
 // section
 h3 {
   font-size: 24px;
+  margin-bottom: $spaceing-small;
 }
 
 // table thread
@@ -29,11 +40,26 @@ h4 {
   font-size: 18px;
 }
 
+@include bp-max-medium() {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-left: $spaceing-mobile;
+    margin-right: $spaceing-mobile;
+  }
+}
 
-//color
-$color-white: #fff;
-$color-white-transparent: rgba(255, 255, 255, 0.1);
+@include bp-max-small() {
+  h2 {
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: $spaceing-small $spaceing-mobile;
+  }
 
-img {
-      width: 100%;
-    }
+  h3 {
+    font-size: 24px;
+    margin-bottom: $spaceing-small $spaceing-mobile;
+  }
+}

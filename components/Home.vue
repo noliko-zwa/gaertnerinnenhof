@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="logo">
+    <div class="logo wrapper">
       <h1>
         <img src="../static/img/logo.svg" alt="logo" />
       </h1>
@@ -30,15 +30,3 @@ export default {
   },
 }
 </script>
-<style lang="scss" scoped>
-.home {
-  color: pink;
-  .logo {
-    max-width: 590px;
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-}
-</style>
