@@ -18,7 +18,7 @@
     >
       <transition name="mobileMenu">
         <div class="nav-bar--menu">
-          <p>home</p>
+          <nuxt-link to="/" v-scroll-to="{ el: '#home' }">home</nuxt-link>
           <p>hof</p>
           <p>angebot</p>
           <p>mitarbeit</p>
@@ -176,7 +176,6 @@ export default {
       background-repeat: no-repeat;
       background-size: cover;
       opacity: 0.9;
-;
     }
 
     .nav-bar--menu {

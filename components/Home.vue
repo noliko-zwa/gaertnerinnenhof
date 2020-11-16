@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" id="home">
     <div class="logo wrapper">
       <h1>
         <img src="../static/img/logo.svg" alt="logo" />
