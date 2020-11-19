@@ -1,7 +1,7 @@
 <template>
   <div class="nav-bar">
     <div class="nav-bar--menu">
-      <p>home</p>
+      <nuxt-link v-scroll-to="{ el: '#home' }">home</nuxt-link>
       <p>hof</p>
       <p>angebot</p>
       <p>mitarbeit</p>

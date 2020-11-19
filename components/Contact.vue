@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact" id="contact">
     <SubmenuHeader
     :barImg="data.headerImg"
     :headerImgText="data.headerImgText"
@@ -8,6 +8,10 @@
     <TextBox
       :textHeader="data.text01_header"
       :textContent="data.text01"
+    />
+    <TextBox
+      :textHeader="data.text02_header"
+      :textContent="data.text02"
     />
   </div>
 </template>

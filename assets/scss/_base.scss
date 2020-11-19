@@ -1,3 +1,15 @@
+a {
+  &:link,
+  &:active {
+    color: $color-white;
+    font-style: none;
+  }
+  &:hover,
+  &:visited {
+    color: $color-white;
+  }
+}
+
 .container {
   margin: 0;
   padding: 0;

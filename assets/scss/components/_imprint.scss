@@ -1,0 +1,29 @@
+.imprint {
+  .text-box {
+    .wrapper {
+      max-width: initial;
+      width: 950px;
+    }
+  }
+}
+
+@include bp-max-medium() {
+  .imprint {
+    .text-box {
+      .wrapper {
+        max-width: initial;
+        width: calc(100vw - 30px);
+      }
+    }
+  }
+}
+
+@include bp-max-small() {
+  .imprint {
+    .text-box {
+      .wrapper {
+        width: calc(100vw - 15px);
+      }
+    }
+  }
+}

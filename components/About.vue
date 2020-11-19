@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <SubmenuHeader
       :barImg="data.headerImg"
       :headerImgText="data.headerImgText"
