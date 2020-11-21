@@ -83,7 +83,7 @@ export default {
     display: block;
     position: fixed;
     top: 10px;
-    right: 25px;
+    left: 25px;
     width: 45px;
     height: 45px;
     margin: 50px 30px;
@@ -167,7 +167,7 @@ export default {
     line-height: 25px;
     font-size: 18px;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
 
     &.open {
       z-index: 99;

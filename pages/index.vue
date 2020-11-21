@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import datas from '@/assets/json/data.json'
+import datas from '~/assets/json/data.json'
 export default {
   layout: 'default',
   asyncData({ params }) {
