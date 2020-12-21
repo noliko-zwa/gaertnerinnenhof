@@ -5,59 +5,30 @@
       <div
         id="nav-icon"
         :class="{ open: showMenu }"
-        @click="showMenu = !showMenu"
+        v-b-toggle.sidebar-backdrop
       >
         <span></span>
         <span></span>
         <span></span>
         <span></span>
       </div>
+      <SideBar></SideBar>
       <div class="logo">
         <h1>
           <img src="../static/img/logo.svg" alt="logo" />
         </h1>
       </div>
     </div>
-    <div
-      class="nav-bar"
-      :class="{ open: showMenu }"
-      @click="showMenu = !showMenu"
-    >
-      <transition name="mobileMenu">
-        <div class="nav-bar--menu">
-          <p></p>
-          <nuxt-link to="/" v-scroll-to="{ el: '#home-page' }">home</nuxt-link>
-          <p></p>
-          <nuxt-link to="/" v-scroll-to="{ el: '#about' }">hof</nuxt-link>
-          <p></p>
-          <nuxt-link to="/" v-scroll-to="{ el: '#offering' }"
-            >angebot</nuxt-link
-          >
-          <p></p>
-          <nuxt-link to="/" v-scroll-to="{ el: '#assistance' }"
-            >mitarbeit</nuxt-link
-          >
-          <p></p>
-          <nuxt-link to="/" v-scroll-to="{ el: '#market' }"
-            >vermakrtung</nuxt-link
-          >
-          <p></p>
-          <p></p>
-          <nuxt-link to="/" v-scroll-to="{ el: '#contact' }">kontakt</nuxt-link>
-          <p></p>
-          <nuxt-link to="/imprint"
-            >impressum&nbsp;/
-            <p>datenschutz</p></nuxt-link
-          >
-        </div>
-      </transition>
-    </div>
   </div>
 </template>
 
 <script>
+import SideBar from '../components/SideBar'
 export default {
   transition: 'mobileMenu',
+  components: {
+    SideBar,
+  },
   data: () => {
     return {
       showMenu: false,
