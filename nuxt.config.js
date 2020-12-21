@@ -19,7 +19,7 @@ export default {
         name: 'description',
         content: process.env.npm_package_description || '',
       },
-    ]
+    ],
   },
   /*
    ** Global CSS
@@ -47,10 +47,14 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     'vue-scrollto/nuxt',
+    '@nuxt/content',
   ],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  compilerOptions: {
+    types: ['@nuxt/types', '@nuxt/content'],
+  },
 }

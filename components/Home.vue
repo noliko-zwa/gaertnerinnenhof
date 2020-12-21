@@ -1,10 +1,5 @@
 <template>
   <div class="home" id="home-page">
-    <div class="logo wrapper">
-      <h1>
-        <img src="../static/img/logo.svg" alt="logo" />
-      </h1>
-    </div>
     <SubmenuHeader
       :barImg="data.headerImg"
       :headerImgText="data.headerImgText"

@@ -1,15 +1,22 @@
 <template>
   <div class="navbar-position">
     <nuxt />
-    <div
-      id="nav-icon"
-      :class="{ open: showMenu }"
-      @click="showMenu = !showMenu"
-    >
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div class="heder-nav-icon">
+      <div
+        id="nav-icon"
+        :class="{ open: showMenu }"
+        @click="showMenu = !showMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="logo">
+        <h1>
+          <img src="../static/img/logo.svg" alt="logo" />
+        </h1>
+      </div>
     </div>
     <div
       class="nav-bar"
@@ -19,19 +26,29 @@
       <transition name="mobileMenu">
         <div class="nav-bar--menu">
           <p></p>
-            <nuxt-link to="/" v-scroll-to="{ el: '#home-page' }">home</nuxt-link>
+          <nuxt-link to="/" v-scroll-to="{ el: '#home-page' }">home</nuxt-link>
           <p></p>
-            <nuxt-link to="/" v-scroll-to="{ el: '#about' }">hof</nuxt-link>
+          <nuxt-link to="/" v-scroll-to="{ el: '#about' }">hof</nuxt-link>
           <p></p>
-            <nuxt-link to="/" v-scroll-to="{ el: '#offering' }">angebot</nuxt-link>
+          <nuxt-link to="/" v-scroll-to="{ el: '#offering' }"
+            >angebot</nuxt-link
+          >
           <p></p>
-            <nuxt-link to="/" v-scroll-to="{ el: '#assistance' }">mitarbeit</nuxt-link>
+          <nuxt-link to="/" v-scroll-to="{ el: '#assistance' }"
+            >mitarbeit</nuxt-link
+          >
           <p></p>
-            <nuxt-link to="/" v-scroll-to="{ el: '#market' }">vermakrtung</nuxt-link>
-          <p></p><p></p>
-            <nuxt-link to="/" v-scroll-to="{ el: '#contact' }">kontakt</nuxt-link>
+          <nuxt-link to="/" v-scroll-to="{ el: '#market' }"
+            >vermakrtung</nuxt-link
+          >
           <p></p>
-            <nuxt-link to="/imprint">impressum&nbsp;/<p>datenschutz</p></nuxt-link>
+          <p></p>
+          <nuxt-link to="/" v-scroll-to="{ el: '#contact' }">kontakt</nuxt-link>
+          <p></p>
+          <nuxt-link to="/imprint"
+            >impressum&nbsp;/
+            <p>datenschutz</p></nuxt-link
+          >
         </div>
       </transition>
     </div>
@@ -78,11 +95,22 @@ export default {
   background-size: cover;
   // background-color: rgb(131, 151, 83);
 
-  #nav-icon {
+  .heder-nav-icon {
     z-index: 100;
-    display: block;
+    display: flex;
     position: fixed;
+    justify-content: space-between;
     top: 10px;
+    width: 100vw;
+
+    .logo {
+      margin: 50px 30px;
+      h1 {
+        width: 450px;
+      }
+    }
+  }
+  #nav-icon {
     left: 25px;
     width: 45px;
     height: 45px;
