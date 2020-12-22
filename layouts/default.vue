@@ -67,7 +67,7 @@ export default {
   // background-color: rgb(131, 151, 83);
 
   .heder-nav-icon {
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     position: fixed;
     justify-content: space-between;
@@ -90,10 +90,6 @@ export default {
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
     cursor: pointer;
 
     span {
@@ -109,10 +105,6 @@ export default {
       -moz-transform: rotate(0deg);
       -o-transform: rotate(0deg);
       transform: rotate(0deg);
-      -webkit-transition: 0.25s ease-in-out;
-      -moz-transition: 0.25s ease-in-out;
-      -o-transition: 0.25s ease-in-out;
-      transition: 0.25s ease-in-out;
 
       &:nth-child(1) {
         top: 0;
@@ -127,126 +119,28 @@ export default {
       }
     }
   }
-
-  #nav-icon.open span:nth-child(1) {
-    top: 10px;
-    width: 0%;
-    left: 50%;
-  }
-
-  #nav-icon.open span:nth-child(2) {
-    top: 10px;
-    left: 1px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-  #nav-icon.open span:nth-child(3) {
-    top: 10px;
-    left: 1px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-  }
-
-  #nav-icon.open span:nth-child(4) {
-    top: 20px;
-    width: 0%;
-    left: 50%;
-  }
-
-  .nav-bar {
-    display: none;
-    width: 100%;
-    font-family: 'inter-bold', 'Helvetica Neue', sans-serif;
-    margin: 87px 50px 0 50px;
-    line-height: 25px;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-align: left;
-
-    &.open {
-      z-index: 99;
-      display: block;
-      position: sticky;
-      top: 0;
-      width: 100%;
-      height: 100vh;
-      margin: 0;
-      background-image: url('../static/img/background-img.png');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 0.9;
-    }
-
-    .nav-bar--menu {
-      margin: 150px 54px 0;
-    }
-
-    p {
-      margin-top: 0;
-      margin-bottom: 2.2rem;
-
-      &:nth-last-of-type(2) {
-        margin-bottom: 0.3rem;
-      }
-    }
-  }
-
-  .mobileMenu-enter-active,
-  .mobileMenu-leave-active {
-    transition: opacity 1.3s ease-out;
-  }
-  .mobileMenu-enter,
-  .mobileMenu-leave-to {
-    opacity: 0.6;
-  }
 }
 
-/* @include bp-max-middle() {
+@include bp-max-medium() {
   .navbar-position {
     flex-direction: column-reverse;
     position: relative;
-    #nav-icon {
-      z-index: 100;
-      display: block;
-      position: sticky;
-      top: 50px;
-      margin-right: 10%;
-    }
-    .nav-bar {
-      display: none;
-      width: 100%;
-      &.open {
-        z-index: 99;
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        background-image: url('../static/img/background-img.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
 
-      .nav-bar--menu {
-        margin: 100px 54px 0;
-        top: 100px;
+    .heder-nav-icon {
+      z-index: 1000;
+      display: flex;
+      position: fixed;
+      justify-content: space-between;
+      top: 10px;
+      width: 100vw;
+
+      .logo {
+        margin: 40px 0 0;
+        h1 {
+          max-width: calc(100vw - 130px);
+        }
       }
-    }
-    .mobileMenu-enter-active,
-    .mobileMenu-leave-active {
-      transition: opacity 1.3s ease-out;
-    }
-    .mobileMenu-enter,
-    .mobileMenu-leave-to {
-      opacity: 0;
     }
   }
-} */
+}
 </style>
