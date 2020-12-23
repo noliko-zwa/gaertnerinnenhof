@@ -1,9 +1,9 @@
 <template>
   <div class="contact" id="contact">
     <SubmenuHeader
-    :barImg="data.headerImg"
-    :headerImgText="data.headerImgText"
-    :header="data.headerText"
+    :barImg="data.header_img"
+    :headerImgText="data.header_img_text"
+    :header="data.header_text"
     />
     <TextBox
       :textHeader="data.text01_header"

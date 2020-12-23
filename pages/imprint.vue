@@ -1,45 +1,45 @@
 <template>
   <div class="imprint container">
     <SubmenuHeader
-      :barImg="datas.impressum.headerImg"
-      :headerImgText="datas.impressum.headerImgText"
-      :header="datas.impressum.headerText"
+      :barImg="datas.header_img"
+      :headerImgText="datas.header_img_text"
+      :header="datas.header_text"
     />
     <TextBox
-      :textHeader="datas.impressum.text01_header"
-      :textContent="datas.impressum.text01"
+      :textHeader="datas.text01_header"
+      :textContent="datas.text01"
     />
     <TextBox
-      :textHeader="datas.impressum.text02_header"
-      :textContent="datas.impressum.text02"
+      :textHeader="datas.text02_header"
+      :textContent="datas.text02"
     />
     <TextBox
-      :textHeader="datas.impressum.text03_header"
-      :textContent="datas.impressum.text03"
+      :textHeader="datas.text03_header"
+      :textContent="datas.text03"
     />
     <TextBox
-      :textHeader="datas.impressum.text04_header"
-      :textContent="datas.impressum.text04"
+      :textHeader="datas.text04_header"
+      :textContent="datas.text04"
     />
     <TextBox
-      :textHeader="datas.impressum.text05_header"
-      :textContent="datas.impressum.text05"
+      :textHeader="datas.text05_header"
+      :textContent="datas.text05"
     />
     <TextBox
-      :textHeader="datas.impressum.text06_header"
-      :textContent="datas.impressum.text06"
+      :textHeader="datas.text06_header"
+      :textContent="datas.text06"
     />
     <TextBox
-      :textHeader="datas.impressum.text07_header"
-      :textContent="datas.impressum.text07"
+      :textHeader="datas.text07_header"
+      :textContent="datas.text07"
     />
     <TextBox
-      :textHeader="datas.impressum.text08_header"
-      :textContent="datas.impressum.text08"
+      :textHeader="datas.text08_header"
+      :textContent="datas.text08"
     />
     <TextBox
-      :textHeader="datas.impressum.text09_header"
-      :textContent="datas.impressum.text09"
+      :textHeader="datas.text09_header"
+      :textContent="datas.text09"
     />
   </div>
 </template>
@@ -48,8 +48,12 @@
 import datas from '@/assets/json/data.json'
 export default {
   layout: 'default',
-  asyncData({ params }) {
-    return { datas }
+  async asyncData ({ $content }) {
+    const datas = await $content('pages/impressum').fetch()
+
+    return {
+      datas
+    }
   },
 }
 </script>

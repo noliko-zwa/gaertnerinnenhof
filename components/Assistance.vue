@@ -1,14 +1,11 @@
 <template>
   <div class="assistance" id="assistance">
     <SubmenuHeader
-    :barImg="data.headerImg"
-    :headerImgText="data.headerImgText"
-    :header="data.headerText"
+      :barImg="data.header_img"
+      :headerImgText="data.header_img_text"
+      :header="data.header_text"
     />
-    <TextBox
-      :textHeader="data.text01_header"
-      :textContent="data.text01"
-    />
+    <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
   </div>
 </template>
 

@@ -1,12 +1,12 @@
 <template>
   <div class="index container">
     <div class="index-wrapper">
-      <Home :data="datas.home" />
-      <About :data="datas.hof" />
-      <Offering :data="datas.angebot" />
-      <Market :data="datas.vermarktung" />
-      <Assistance :data="datas.mitarbeit" />
-      <Contact :data="datas.kontakt" />
+      <Home :data="datas[6]" />
+      <About :data="datas[1]" />
+      <Offering :data="datas[0]" />
+      <Market :data="datas[5]" />
+      <Assistance :data="datas[4]" />
+      <Contact :data="datas[3]" />
     </div>
   </div>
 </template>
@@ -15,8 +15,12 @@
 import datas from '~/assets/json/data.json'
 export default {
   layout: 'default',
-  asyncData({ params }) {
-    return { datas }
+  async asyncData({ $content }) {
+    const datas = await $content('pages').fetch()
+
+    return {
+      datas,
+    }
   },
 }
 </script>

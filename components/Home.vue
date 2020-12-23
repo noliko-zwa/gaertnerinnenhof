@@ -1,12 +1,12 @@
 <template>
   <div class="home" id="home-page">
     <SubmenuHeader
-      :barImg="data.headerImg"
-      :headerImgText="data.headerImgText"
-      :header="data.headerText"
+      :barImg="data.header_img"
+      :headerImgText="data.header_img_text"
+      :header="data.header_text"
     />
     <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
-    <Gallery :imageHeader="data.galleryText" :images="data.galleryImg" />
+    <Gallery :imageHeader="data.gallery_text" :images="data.gallery_img" />
   </div>
 </template>
 <script>
