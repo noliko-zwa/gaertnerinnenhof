@@ -1,18 +1,17 @@
 <template>
   <div class="index container">
     <div class="index-wrapper">
-      <Home :data="datas[6]" />
-      <About :data="datas[1]" />
+      <Home :data="datas[3]" />
+      <About :data="datas[2]" />
       <Offering :data="datas[0]" />
-      <Market :data="datas[5]" />
-      <Assistance :data="datas[4]" />
-      <Contact :data="datas[3]" />
+      <Market :data="datas[6]" />
+      <Assistance :data="datas[5]" />
+      <Contact :data="datas[4]" />
     </div>
   </div>
 </template>
 
 <script>
-import datas from '~/assets/json/data.json'
 export default {
   layout: 'default',
   async asyncData({ $content }) {
@@ -20,7 +19,6 @@ export default {
     return {
       datas,
     }
-  }
+  },
 }
-
 </script>
