@@ -1,7 +1,7 @@
 <template>
   <div class="navbar-position">
     <nuxt />
-    <div class="heder-nav-icon">
+    <div class="header-nav-icon">
       <div
         id="nav-icon"
         :class="{ open: showMenu }"
@@ -51,7 +51,7 @@ export default {
   flex-direction: column-reverse;
   position: relative;
   font-family: 'inter-regular', 'Helvetica Neue', Arial, sans-serif;
-  color: $color-white;
+  color: $color-dark;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -59,25 +59,25 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-image: url('../static/img/background-img.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   // background-color: rgb(131, 151, 83);
 
-  .heder-nav-icon {
+  .header-nav-icon {
+    background-color: goldenrod;
     z-index: 1000;
     display: flex;
     position: fixed;
     justify-content: space-between;
-    top: 10px;
+    top: 0;
     width: 100vw;
 
     .logo {
-      margin: 50px 30px;
+      margin: 10px 30px 0;
       h1 {
-        width: 450px;
+        width: 300px;
       }
     }
   }
@@ -85,7 +85,7 @@ export default {
     left: 25px;
     width: 45px;
     height: 45px;
-    margin: 50px 30px;
+    margin: 35px 30px 0;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);

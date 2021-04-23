@@ -1,6 +1,4 @@
 .b-sidebar {
-  opacity: 0.8;
-  background-image: url('../static/img/background-img.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,6 +12,7 @@
 
     .nav-bar--menu {
       margin: 150px 54px 0;
+      color: #666;
     }
 
     p {
