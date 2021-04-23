@@ -6,6 +6,7 @@
       :header="data.header_text"
     />
     <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
+    <TextBox :textContent="data.text02" />
     <Gallery :imageHeader="data.gallery_text" :images="data.gallery_img" />
   </div>
 </template>

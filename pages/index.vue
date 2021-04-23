@@ -17,10 +17,10 @@ export default {
   layout: 'default',
   async asyncData({ $content }) {
     const datas = await $content('pages').fetch()
-
     return {
       datas,
     }
-  },
+  }
 }
+
 </script>

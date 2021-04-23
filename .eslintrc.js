@@ -18,4 +18,5 @@ module.exports = {
   // add your custom rules here
   rules: { 'prettier/prettier': [true, { tabWidth: 2 }] },
   'vue/attribute-hyphenation': ['never'],
+  'vue/attribute-hyphenation': ['always'],
 }
