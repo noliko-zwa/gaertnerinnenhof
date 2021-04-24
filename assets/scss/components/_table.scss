@@ -1,5 +1,5 @@
 .table {
-  color: $color-white;
+  color: $color-dark;
   th {
     text-transform: uppercase;
   }
@@ -15,5 +15,5 @@
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: $color-white-transparent;
+  background-color: $color-gold-transparent;
 }

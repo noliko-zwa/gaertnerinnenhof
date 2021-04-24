@@ -1,12 +1,12 @@
 <template>
   <div class="index container">
     <div class="index-wrapper">
-      <Home :data="datas[3]" />
-      <About :data="datas[3]" />
-      <Offering :data="datas[3]" />
-      <Market :data="datas[1]" />
-      <Assistance :data="datas[6]" />
-      <Contact :data="datas[5]" />
+      <Home :data="home"/>
+      <About :data="about" />
+      <Offering :data="offering" />
+      <Market :data="market" />
+      <Assistance :data="assintance" />
+      <Contact :data="contact" />
     </div>
   </div>
 </template>
@@ -17,9 +17,28 @@ export default {
   layout: 'default',
   async asyncData({ $content }) {
     const datas = await $content('pages').fetch()
-    console.log("data:", datas);
+    const findData = (name) => datas.find((el) => el.slug === name)
+    const menuList = [
+      'home',
+      'hof',
+      'angebot',
+      'kontakt',
+      'mitarbeit',
+      'vermaktung',
+    ]
+    const home = findData('home')
+    const about = findData('hof')
+    const offering = findData('angebot')
+    const contact = findData('kontakt')
+    const assintance = findData('mitarbeit')
+    const market = findData('vermarktung')
     return {
-      datas,
+      home,
+      about,
+      offering,
+      contact,
+      assintance,
+      market,
     }
   },
 }
