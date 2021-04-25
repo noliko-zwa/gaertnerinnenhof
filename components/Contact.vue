@@ -13,6 +13,8 @@
       :textHeader="data.text02_header"
       :textContent="data.text02"
     />
+    <img class="map" src="/img/headerImg/210402_Grafik_Anfahrt_s.jpg"/>
+
   </div>
 </template>
 

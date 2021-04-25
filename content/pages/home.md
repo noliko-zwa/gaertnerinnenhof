@@ -4,15 +4,17 @@ header_img_text: /img/headerImg/0_Home.jpg
 text01_header: Herzlich willkommen bei deinen gaertnerinnen!
 text01: "Hier kannst du alles erfahren, was es rund um deine Bio-Gärtnerei an der Stadtgrenze zu Berlin zu wissen gibt:
 <p></p>
-wer für dich gärtnert,
+wer für dich gärtnert
 </br>
-wie wir arbeiten, was wir für dich anbauen,
+wie wir arbeiten 
+<br/>
+was wir für dich anbauen
 </br>
- wann wir vermarkten,
+ wann wir vermarkten
  </br>
  wie du mitmachen kannst
  </br>
- und wo du uns findest."
+ und wo du uns findest"
 gallery_img:
             - src: "/img/gallery/hof/1_Smell_of_Spring.jpg"
               info: smell of spring
