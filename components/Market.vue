@@ -6,7 +6,9 @@
       :header="data.header_text"
     />
     <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
-    <img src="/img/grafics/Map_Webseite_Bild.svg" class="grafic" />
+    <div class="text-box">
+      <img src="/img/grafics/Map_Webseite_Bild.svg" class="wrapper" />
+    </div>
     <Table :header="data.table01_header" :items="data.table01" />
     <Table :header="data.table02_header" :items="data.table02" />
     <Table :header="data.table03_header" :items="data.table03" />

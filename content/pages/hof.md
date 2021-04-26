@@ -30,7 +30,7 @@ Nachhaltiger Gemüsebau ist also mehr als der bloße Verzicht auf synthetische D
 	⁃	Prävention gegen Schädlingsbefall und Krankheiten (z.B. durch Vitalisierung unserer Kulturen mit eigenem Komposttee) statt Bekämpfung dieser
 <br/>
 	⁃	Einbindung unserer Arbeit in die natürlichen Lebensprozesse – Motto: Fördern statt kontrollieren
-<p>
+<p></p>
 
 Wir freuen uns sehr, uns nach einer langen und durchaus erfolgreichen Zeit in der ökologischen Produktion nun weiterzuentwickeln. Nachhaltigkeit ist unser nächster großer Schritt nach vorne.
 Du willst mehr über regenerative (nachhaltige) Landwirtschaft und die ersten Ansätze dafür lernen? Zum Beispiel hier:
@@ -50,22 +50,12 @@ Das Resultat von dieser Philosophie ist eine sehr herzliche Atmosphäre, wir sch
 Unser Hof und unser Gemüse spiegeln diese Harmonie wider."
 gallery_img:
   - src: '/img/gallery/hof/1_Smell_of_Spring.jpg'
-    info: smell of spring
   - src: '/img/gallery/hof/2_Das_Bett.jpg'
-    info: das Bett
   - src: '/img/gallery/hof/3_Architecture.jpg'
-    info: Architecture
   - src: '/img/gallery/hof/4_Die_Lichtung.jpg'
-    info: die Lichtung
   - src: "/img/gallery/hof/5_Cristo's_Ordnung.jpg"
-    info: Cristo's Ordnung
   - src: '/img/gallery/hof/6_Das_Meer.jpg'
-    info: Das Meer
   - src: '/img/gallery/hof/7_Wanne.jpg'
-    info: Wanne
   - src: '/img/gallery/hof/9_Kartoffeln.jpg'
-    info: Kartoffeln
   - src: '/img/gallery/hof/10_Verbotene_Frucht.jpg'
-    info: Verbotene Frucht
-
 ---

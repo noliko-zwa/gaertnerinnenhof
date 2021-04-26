@@ -7,7 +7,12 @@
     />
     <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
     <TextBox :textHeader="data.text02_header" :textContent="data.text02" />
-    <img src="/img/headerImg/210418_Grafik_Bodenleben_s.jpg" class="grafic" />
+    <div class="text-box">
+      <img
+        src="/img/headerImg/210418_Grafik_Bodenleben_s.jpg"
+        class="graphic wrapper"
+      />
+    </div>
     <TextBox :textHeader="data.text03_header" :textContent="data.text03" />
     <TextBox :textHeader="data.text04_header" :textContent="data.text04" />
     <Gallery :imageHeader="data.gallery_text" :images="data.gallery_img" />
