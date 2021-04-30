@@ -2,15 +2,18 @@
   color: $color-dark;
   th {
     text-transform: uppercase;
+    color: transparent;
+    height: 0;
+    border-top: none;
   }
-  th,
   td {
     border-top: none;
-    padding: rem(17px) 0.75rem;
+    padding: rem(17px) 0.6rem;
   }
 
   thead th {
     border-bottom: none;
+    display: none;
   }
 }
 

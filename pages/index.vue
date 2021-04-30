@@ -12,7 +12,6 @@
 </template>
 
 <script>
-import datas from '~/assets/json/data.json'
 export default {
   layout: 'default',
   async asyncData({ $content }) {

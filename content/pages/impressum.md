@@ -3,15 +3,17 @@ header_text: IMPRESSUM / DATENSCHUTZ
 header_img: /img/headerImg/6_Impressum.jpg
 header_img_text: /img/headerImg/6_Impressum.jpg
 text01_header: "Herausgeber:"
-text01: "Gärtnerinnenhof Blumberg – Isabel Burmeister & Maria Natt GbR<br/>Krummenseer Straße 5a<br/>16356 Blumberg<br/>Telefon/Fax (033394) 479878<br/>E-mail: post@gaertnerinnen.de<br/> Website:http://www.gaertnerinnenhof-blumberg.de/"
+text01: "Gärtnerinnenhof Blumberg – Isabel Burmeister & Maria Natt GbR<br/>Krummenseer Straße 5a<br/>16356 Blumberg<br/>Telefon/Fax (033394) 479878<br/>E-mail: post@gaertnerinnen.de<br/> Website:http://www.gaertnerinnenhof-blumberg.de/
+<p/>
+DE-ÖKO-021"
 text02_header: "Gesellschafter:"
-text02: Isabel Burmeister, Maria Nat
+text02: Isabel Burmeister, Maria Natt
 text03_header: "Konzept:"
 text03: Noriko Takizawa, Beate Brauner
 text04_header: "Gestaltung und Programmierung:"
 text04: Noriko Takizawa
 text05_header: "Texte:"
-text05: Isabel Burmeister, Maria Natt
+text05: "Isabel Burmeister, Maria Natt"
 text06_header: Haftungsauschluss
 text06: Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 text07_header: Haftung für Links

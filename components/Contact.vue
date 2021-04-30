@@ -13,6 +13,10 @@
       :textHeader="data.text02_header"
       :textContent="data.text02"
     />
+    <div class="text-box">
+    <img class="graphic wrapper" src="/img/headerImg/210402_Grafik_Anfahrt_s.jpg"/>
+    </div>
+
   </div>
 </template>
 

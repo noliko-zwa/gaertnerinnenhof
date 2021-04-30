@@ -26,6 +26,10 @@ a {
   margin: 0 auto;
 }
 
+.graphic {
+  display: block;
+}
+
 .index-wrapper {
   width: 100%;
   & > *:nth-of-type(1) {
@@ -37,9 +41,12 @@ a {
   }
 }
 
-.text-box,
-.table {
+.text-box{
   margin: $spaceing-middle 0 0;
+}
+
+.table {
+  margin: $spaceing-small 0 0;
 }
 
 .logo {
