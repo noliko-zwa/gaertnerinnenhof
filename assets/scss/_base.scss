@@ -41,9 +41,12 @@ a {
   }
 }
 
-.text-box,
-.table {
+.text-box{
   margin: $spaceing-middle 0 0;
+}
+
+.table {
+  margin: $spaceing-small 0 0;
 }
 
 .logo {

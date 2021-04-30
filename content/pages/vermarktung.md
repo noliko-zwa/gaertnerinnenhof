@@ -15,7 +15,7 @@ Für die Teilnahme an den Schwärmereien ist eine unverbindliche Anmeldung und a
 table01_header: DIREKTVERKAUF
 table01:
         - märkte: Gärtnerinnenhof Blumberg
-          wochentag: freitag
+          wochentag: Freitag
           uhrzeit: 11.00 - 16.00 Uhr
 
 table02_header: MÄRKTE
@@ -30,10 +30,10 @@ table02:
           wochentag: Dienstag
           uhrzeit: 11.00 - 18.30 Uhr
         - märkte: Maybachufer
-          wochentag: freitag
+          wochentag: Freitag
           uhrzeit: 11.00 - 18.30 Uhr
         - märkte: Südstern
-          wochentag: Samstag
+          wochentag: Sammstag
           uhrzeit: 10.00 - 16.00 Uhr
 table03_header: MARKTSCHWÄRMEREIEN
 table03:
