@@ -9,6 +9,9 @@
       :textHeader="datas.text01_header"
       :textContent="datas.text01"
     />
+     <div class="bio-logo">
+      <img src="/img/EU_Organic_Logo_Colour_rgb.jpg" />
+    </div>
     <TextBox
       :textHeader="datas.text02_header"
       :textContent="datas.text02"

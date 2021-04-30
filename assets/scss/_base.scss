@@ -30,6 +30,13 @@ a {
   display: block;
 }
 
+.bio-logo {
+  width: 120px;
+  text-align: justify;
+}
+
+
+
 .index-wrapper {
   width: 100%;
   & > *:nth-of-type(1) {
@@ -41,7 +48,7 @@ a {
   }
 }
 
-.text-box{
+.text-box {
   margin: $spaceing-middle 0 0;
 }
 
