@@ -66,16 +66,20 @@ export default {
   // background-color: rgb(131, 151, 83);
 
   .header-nav-icon {
-    background-color: goldenrod;
+    background-image: url('../static/img/bgImg-dark.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1000;
     display: flex;
     position: fixed;
     justify-content: space-between;
     top: 0;
-    width: 100vw;
+    width: 100%;
 
     .logo {
-      margin: 10px 30px 0;
+      margin: 20px 10px 0;
       h1 {
         width: 300px;
       }
@@ -85,7 +89,7 @@ export default {
     left: 25px;
     width: 45px;
     height: 45px;
-    margin: 35px 30px 0;
+    margin: 35px 0 0 30px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -132,12 +136,11 @@ export default {
       position: fixed;
       justify-content: space-between;
       top: 10px;
-      width: 100vw;
 
       .logo {
         margin: 40px 0 0;
         h1 {
-          max-width: calc(100vw - 130px);
+          width: 150px;
         }
       }
     }
