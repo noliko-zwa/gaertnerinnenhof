@@ -1,6 +1,6 @@
 ---
 header_text: kontakt
-header_img: /img/headerImg/5_kontakt.jpg
+header_img: /img/headerImg/contact.jpg
 header_img_text: /img/headerImg/5_kontakt.jpg
 text01_header: ''
 text01: "Gärtnerinnenhof Blumberg  <br/> Isabel Burmeister und Maria Natt GbR <br/> Krummenseer Straße 5a <br/> <p></p>16356 Ahrensfelde / OT Blumberg <br/> Telefon/Fax: (033394)479878 <br/> Email: post@gaertnerinnen.de"

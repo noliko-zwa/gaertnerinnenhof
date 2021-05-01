@@ -9,7 +9,7 @@
     <TextBox :textHeader="data.text02_header" :textContent="data.text02" />
     <div class="text-box">
       <img
-        src="/img/headerImg/210418_Grafik_Bodenleben_s.jpg"
+        src="/img/grafics/Grafik_Bodenleben.png"
         class="graphic wrapper"
       />
     </div>

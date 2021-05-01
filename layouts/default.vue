@@ -59,7 +59,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-image: url('../static/img/background-img.png');
+  background-image: url('../static/img/bgImg-dark.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
