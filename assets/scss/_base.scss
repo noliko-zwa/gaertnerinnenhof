@@ -30,6 +30,22 @@ a {
   display: block;
 }
 
+.bio-logo {
+  width: 120px;
+  text-align: left;
+}
+.sns-icon {
+  width: 30px;
+  display: inline-block;
+}
+
+img .bio-logo {
+  display: inline-block;
+}
+.logo-wrapper {
+  margin: $spaceing-middle 0 0;
+}
+
 .index-wrapper {
   width: 100%;
   & > *:nth-of-type(1) {
@@ -41,8 +57,14 @@ a {
   }
 }
 
-.text-box{
+.text-box {
   margin: $spaceing-middle 0 0;
+  &.logo {
+    margin: -25px 0 0;
+  }
+  &.sns {
+    margin: 30px 0 0;
+  }
 }
 
 .table {
