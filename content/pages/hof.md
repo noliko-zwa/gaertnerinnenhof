@@ -33,14 +33,8 @@ Nachhaltiger Gemüsebau ist also mehr als der bloße Verzicht auf synthetische D
 <p></p>
 
 Wir freuen uns sehr, uns nach einer langen und durchaus erfolgreichen Zeit in der ökologischen Produktion nun weiterzuentwickeln. Nachhaltigkeit ist unser nächster großer Schritt nach vorne.
-Du willst mehr über regenerative (nachhaltige) Landwirtschaft und die ersten Ansätze dafür lernen? Zum Beispiel hier:
-<br/>
-http://regenerative-landwirtschaft.de
-<br/>
-http://humusfarming.de
-<br/>
-http://gruenebruecke.de
-"
+Du willst mehr über regenerative (nachhaltige) Landwirtschaft und die ersten Ansätze dafür lernen? Zum Beispiel hier:"
+
 text04_header: Deine gaertnerinnen
 text04: "Dein gaertnerinnen-Team besteht seit Januar 2019 aus Maria und Isy als Betriebsleitung und einer wachsenden Zahl von Mitarbeiterinnen.
 Isy ist seit 2007 dabei, hat auf dem Gärtnerinnenhof erst ihr FÖJ, dann ihre Ausbildung und schlussendlich den Meister gemacht. Maria hat bei uns 2013 ihre Ausbildung abgeschlossen und dann tolle und wichtige Erfahrungen auf verschiedenen Höfen und Betrieben in Kanada und den USA gesammelt und mit nach Hause gebracht. Zusammen haben wir 2019 den Schritt in die Selbstständigkeit gewagt und leiten seitdem erfolgreich unseren Betrieb.

@@ -24,7 +24,7 @@ table02:
           wochentag: Dienstag
           uhrzeit: 12.00 - 18.00 Uhr
         - märkte: Hohenstaufenplatz
-          wochentag: Sammstag
+          wochentag: Samstag
           uhrzeit: 9.00 - 15.00 Uhr
         - märkte: Maybachufer
           wochentag: Dienstag
@@ -33,7 +33,7 @@ table02:
           wochentag: Freitag
           uhrzeit: 11.00 - 18.30 Uhr
         - märkte: Südstern
-          wochentag: Sammstag
+          wochentag: Samstag
           uhrzeit: 10.00 - 16.00 Uhr
 table03_header: MARKTSCHWÄRMEREIEN
 table03:
