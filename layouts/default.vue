@@ -66,7 +66,7 @@ export default {
   // background-color: rgb(131, 151, 83);
 
   .header-nav-icon {
-    background-image: url('../static/img/bgImg-dark.jpg');
+    background-image: url('../static/img/background-img.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
