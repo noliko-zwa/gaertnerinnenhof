@@ -79,9 +79,9 @@ export default {
     width: 100%;
 
     .logo {
-      margin: 20px 10px 0;
+      margin: 0 30px 0 0;
       h1 {
-        width: 300px;
+        width: 200px;
       }
     }
   }
@@ -89,7 +89,7 @@ export default {
     left: 25px;
     width: 45px;
     height: 45px;
-    margin: 35px 0 0 30px;
+    margin: 27px 0 0 30px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -138,7 +138,7 @@ export default {
       top: 10px;
 
       .logo {
-        margin: 40px 0 0;
+        margin: 0;
         h1 {
           width: 150px;
         }

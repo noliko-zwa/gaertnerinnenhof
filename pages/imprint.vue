@@ -6,7 +6,7 @@
       :header="datas.header_text"
     />
     <TextBox :textHeader="datas.text01_header" :textContent="datas.text01" />
-    <div class="text-box logo">
+    <div class="text-box sns">
       <div class="text-box--wrapper wrapper">
         <div class="text-box--content">
           <div class="bio-logo">

@@ -13,7 +13,6 @@
     <TextBox :textHeader="data.text03_header" :textContent="data.text03" />
     <div class="text-box sns">
       <div class="text-box--wrapper wrapper">
-        <br />
         <a
           href="https://www.regenerative-landwirtschaft.de/startseite.html"
           target="_blank"
