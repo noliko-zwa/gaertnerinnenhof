@@ -16,14 +16,10 @@ was wir für dich anbauen
  </br>
  und wo du uns findest"
 gallery_img:
-            - src: "/img/gallery/hof/1_Smell_of_Spring.jpg"
-            - src: "/img/gallery/hof/2_Das_Bett.jpg"
-            - src: "/img/gallery/hof/3_Architecture.jpg"
-            - src: "/img/gallery/hof/4_Die_Lichtung.jpg"
-            - src: "/img/gallery/hof/5_Cristo's_Ordnung.jpg"
-            - src: "/img/gallery/hof/6_Das_Meer.jpg"
-            - src: "/img/gallery/hof/7_Wanne.jpg"
-            - src: "/img/gallery/hof/9_Kartoffeln.jpg"
-            - src: "/img/gallery/hof/10_Verbotene_Frucht.jpg"
+            - src: "/img/gallery/home/1.1_Home.jpg"
+            - src: "/img/gallery/home/1.2_Home.jpg"
+            - src: "/img/gallery/home/1.3_Home.jpg"
+            - src: "/img/gallery/home/1.4_Home.jpg"
+            - src: "/img/gallery/home/1.5_Home.jpg"
 text02: "Fühl dich eingeladen, zu stöbern und uns (noch besser) kennen zu lernen. Und übrigens: Wir lieben Transparenz. Jeden Freitag während des Hofverkaufs stehen unsere Türen für dich offen. Komm rein, schau dir alles an, überzeuge dich selbst von der Atmosphäre unseres Hofes und der Qualität unserer Produkte."
 ---

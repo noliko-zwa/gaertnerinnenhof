@@ -43,13 +43,11 @@ Was den Hof jedoch in seinem Kern wirklich ausmacht, sind die unglaublich engagi
 Das Resultat von dieser Philosophie ist eine sehr herzliche Atmosphäre, wir schnattern und lachen viel, unterstützen uns gegenseitig, springen ein, wenn jemand nicht mehr kann. Kurzum: wir arbeiten zusammen, füreinander und miteinander. 
 Unser Hof und unser Gemüse spiegeln diese Harmonie wider."
 gallery_img:
-  - src: '/img/gallery/hof/1_Smell_of_Spring.jpg'
-  - src: '/img/gallery/hof/2_Das_Bett.jpg'
-  - src: '/img/gallery/hof/3_Architecture.jpg'
-  - src: '/img/gallery/hof/4_Die_Lichtung.jpg'
-  - src: "/img/gallery/hof/5_Cristo's_Ordnung.jpg"
-  - src: '/img/gallery/hof/6_Das_Meer.jpg'
-  - src: '/img/gallery/hof/7_Wanne.jpg'
-  - src: '/img/gallery/hof/9_Kartoffeln.jpg'
-  - src: '/img/gallery/hof/10_Verbotene_Frucht.jpg'
+  - src: 'img/gallery/hof/2.1_Hof.jpg'
+  - src: 'img/gallery/hof/2.2_Hof.jpg'
+  - src: 'img/gallery/hof/2.3_Hof.jpg'
+  - src: 'img/gallery/hof/2.4_Hof.jpg'
+  - src: 'img/gallery/hof/2.5_Hof.jpg'
+  - src: 'img/gallery/hof/2.6_Hof.jpg'
+  - src: 'img/gallery/hof/2.7_Hof.jpg'
 ---

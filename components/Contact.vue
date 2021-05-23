@@ -14,7 +14,7 @@
       :textContent="data.text02"
     />
     <div class="text-box">
-    <img class="graphic wrapper" src="/img/grafics/Grafik_Anfahrt_vorläufig.png"/>
+    <img class="graphic wrapper" src="/img/grafics/Grafik_Anfahrt_vorläufig.jpg"/>
     </div>
 
   </div>

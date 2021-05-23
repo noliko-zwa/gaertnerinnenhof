@@ -7,7 +7,7 @@
     />
     <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
     <div class="text-box">
-      <img src="/img/grafics/Grafik_Vermarktung_vorläufig.png" class="graphic wrapper" />
+      <img src="/img/grafics/Grafik_Vermarktung_vorläufig.jpg" class="graphic wrapper" />
     </div>
     <Table :header="data.table01_header" :items="data.table01" />
     <Table :header="data.table02_header" :items="data.table02" />

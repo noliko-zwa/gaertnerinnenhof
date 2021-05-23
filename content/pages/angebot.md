@@ -11,10 +11,12 @@ Unsere besonderen Highlights sind in 2021 u.a. Grüner Spargel, Eiskraut, Wildkr
 Um unser Angebot abzurunden, wirst du vor allem während der Wintermonate auf den Märkten auch Zukauf aus der Region, Deutschland und Europa finden. Hier arbeiten wir, wo es geht, mit befreundeten Höfen aus der Region zusammen und beziehen alles andere über den Bio-Großhandel Terra Naturkost. <p></p>
 Wer gezielt nur Eigenware einkaufen möchte: Halte Ausschau nach den Preisschildern mit der grünen Umrandung!"
 gallery_img:
-  - src: '/img/gallery/angebot/Aubergine.jpg'
-  - src: '/img/gallery/angebot/Brokkoli.jpg'
-  - src: '/img/gallery/angebot/Möhren.jpg'
-  - src: '/img/gallery/angebot/Tomaten_rosé.jpg'
+  - src: '/img/gallery/offering/3.1_Angebot.jpg'
+  - src: '/img/gallery/offering/3.2_Angebot.jpg'
+  - src: '/img/gallery/offering/3.3_Angebot.jpg'
+  - src: '/img/gallery/offering/3.4_Angebot.jpg'
+  - src: '/img/gallery/offering/3.5_Angebot.jpg'
+  - src: '/img/gallery/offering/3.6_Angebot.jpg'
 text02: Unsere besonderen Highlights sind in 2021 u.a. Grüner Spargel, Eiskraut, Wildkräutersalat, Rondini und Rosenkohl (das macht ja heute keiner mehr selbst).
 text03: 'Um unser Angebot abzurunden, wirst du vor allem während der Wintermonate auf den Märkten auch Zukauf aus der Region, Deutschland und Europa finden. Hier arbeiten wir, wo es geht, mit befreundeten Höfen aus der Region zusammen und beziehen alles andere über den Bio-Großhandel Terra Naturkost. Wer gezielt nur Eigenware einkaufen möchte: Halte Ausschau nach den Preisschildern mit der grünen Umrandung!'
 ---
