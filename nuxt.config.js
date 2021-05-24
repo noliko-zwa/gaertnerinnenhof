@@ -1,3 +1,5 @@
+require('dotenv').config()
+const { Instagram_Id, Instagram_AccessToken } = process.env
 export default {
   /*
    ** Nuxt rendering mode
@@ -30,8 +32,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [
-  ],
+  plugins: [],
   /*
    ** Nuxt.js dev-modules
    */
@@ -49,7 +50,12 @@ export default {
     'vue-scrollto/nuxt',
     '@nuxt/content',
     '@nuxtjs/axios',
+    '@nuxtjs/dotenv',
   ],
+  env: {
+    Instagram_AccessToken,
+    Instagram_Id,
+  },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

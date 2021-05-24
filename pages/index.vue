@@ -25,7 +25,7 @@ export default {
     const market = findData('vermarktung')
 
     const instagram = await $axios.$get(
-      'https://graph.facebook.com/v6.0/17841410518512652?fields=name%2Cmedia.limit(1)%7Bcaption%2Cmedia_url%2Cthumbnail_url%2Ctimestamp%2Cpermalink%7D&access_token=EAACY49ChnmYBAP7HxSuDbMvjFEIPYqLTold8QFvmN8Kn8Hf4exJQLOgZCjIIu2kyZChtBGKzkemWdoKOd94BNDdcZCQd6ZBid1Qn6asmRa12RYvG7Gf2ZAjZC5BzUkUSvxXaiJH0sDJHfC2H5Iqjk4jSqkvRppbdJn3ROHQ14hRgYyxGTlTSTb'
+      `https://graph.facebook.com/v6.0/${process.env.Instagram_Id}?fields=name%2Cmedia.limit(1)%7Bcaption%2Cmedia_url%2Cthumbnail_url%2Ctimestamp%2Cpermalink%7D&access_token=${process.env.Instagram_AccessToken}`
     )
     const instaData = instagram.media.data
     return {
