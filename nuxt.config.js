@@ -30,7 +30,8 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: [
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -44,10 +45,10 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     'vue-scrollto/nuxt',
     '@nuxt/content',
+    '@nuxtjs/axios',
   ],
   /*
    ** Build configuration
@@ -55,6 +56,6 @@ export default {
    */
   build: {},
   compilerOptions: {
-    types: ['@nuxt/types', '@nuxt/content'],
+    types: ['@nuxt/content'],
   },
 }

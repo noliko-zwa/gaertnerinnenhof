@@ -25,7 +25,6 @@
     <TextBox :textHeader="datas.text09_header" :textContent="datas.text09" />
   </div>
 </template>
-
 <script>
 import datas from '@/assets/json/data.json'
 export default {

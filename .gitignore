@@ -91,3 +91,7 @@ sw.*
 
 # Static images
 static/img/*
+
+
+# instagrm token
+insta-token.json

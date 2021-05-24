@@ -60,8 +60,13 @@ img .bio-logo {
 .text-box {
   margin: $spaceing-middle 0 0;
   &.sns {
-    margin: 10px 20px 0;
+    margin: 30px 20px 0;
   }
+}
+
+.sns-wrapper{
+  display: flex;
+  align-items: flex-end;
 }
 
 .table {

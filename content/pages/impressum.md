@@ -1,7 +1,7 @@
 ---
 header_text: IMPRESSUM / DATENSCHUTZ
 header_img: /img/headerImg/6_Impressum.jpg
-header_img_text: /img/headerImg/6_Impressum.jpg
+header_img_text: 6_Impressum.jpg
 text01_header: "Herausgeber:"
 text01: "Gärtnerinnenhof Blumberg – Isabel Burmeister & Maria Natt GbR<br/>Krummenseer Straße 5a<br/>16356 Blumberg<br/>Telefon/Fax (033394) 479878<br/>E-mail: post@gaertnerinnen.de<br/> Website:http://www.gaertnerinnenhof-blumberg.de/
 <p/>
