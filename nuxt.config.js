@@ -19,7 +19,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: 'Hier kannst du alles erfahren, was es rund um deine Bio-Gärtnerei an der Stadtgrenze zu Berlin zu wissen gibt',
       },
     ],
   },
