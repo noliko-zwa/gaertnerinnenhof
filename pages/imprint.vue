@@ -23,6 +23,7 @@
     <TextBox :textHeader="datas.text07_header" :textContent="datas.text07" />
     <TextBox :textHeader="datas.text08_header" :textContent="datas.text08" />
     <TextBox :textHeader="datas.text09_header" :textContent="datas.text09" />
+    <TextBox :textHeader="datas.text010_header" :textContent="datas.text010" />
   </div>
 </template>
 <script>
