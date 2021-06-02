@@ -15,7 +15,7 @@
       <SideBar></SideBar>
       <div class="logo">
         <h1>
-          <img src="../static/img/logo.svg" alt="logo" />
+          <img src="/img/logo.svg" alt="logo" />
         </h1>
       </div>
     </div>
@@ -66,7 +66,7 @@ export default {
   // background-color: rgb(131, 151, 83);
 
   .header-nav-icon {
-    background-image: url('../static/img/background-img.png');
+    background-image: url('../static/img/bg-img.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
