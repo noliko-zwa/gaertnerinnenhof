@@ -12,6 +12,6 @@ text02: "Als Student*in aus dem grünen Bereich kannst du bei uns dein studiumsr
 <p></p>
 Wir suchen noch Praktikant*innen für Spätsommer 2021."
 text03_header: Freiwilliges ökologisches Jahr
-text03: "Jugendliche, die an Naturschutz und gärtnerischer Arbeit interessiert sind, können ihr Freiwilliges Ökologisches Jahr (FÖJ) vom 01.09. bis 31.08. des Folgejahres bei uns absolvieren. Vermittler für das FÖJ ist die Stiftung Naturschutz Berlin Link
+text03: "Jugendliche, die an Naturschutz und gärtnerischer Arbeit interessiert sind, können ihr Freiwilliges Ökologisches Jahr (FÖJ) vom 01.09. bis 31.08. des Folgejahres bei uns absolvieren. Vermittler für das FÖJ ist die Stiftung Naturschutz Berlin (https://www.stiftung-naturschutz.de/)
 Diese vergibt die Plätze und schließt den Vertrag mit dir. Bewerbungen demnach bitte direkt an die Stiftung richten!"
 ---

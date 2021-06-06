@@ -6,11 +6,10 @@ text01: "Deine gaertnerinnen betreiben ausschließlich Direktvermarktung. Das he
 <p></p>
 Direktvermarktung heißt für uns aber auch, dass wir unsere Preise selbst gestalten können. Das hilft uns, unseren Hof sowohl wirtschaftlich rentabel als auch sozial gerecht zu führen. Löhne und Ausbildungsvergütungen sollen der harten Arbeit angemessen sein, mensch muss schließlich davon leben können.
 <p></p>
-Die Vermarktung läuft über zwei Wege: Zum einen über Wochenmärkte in Berlin sowie unseren Direktverkauf am Hof. Hier sind wir regelmäßig bei Wind und Wetter bis ca. -5 Grad für dich da. Dein Vorteil: Du kaufst, was du siehst und worauf du in diesem Moment Lust hast, und kannst auch die Mengen ganz nach deinen Bedürfnissen anpassen.
-<br/>
-Zum anderen über Verteilungsorte der Marktschwärmer (www.marktschwärmer.de).
+Die Vermarktung läuft über zwei Wege: <p></p>
+Zum einen über Wochenmärkte in Berlin sowie unseren Direktverkauf am Hof. Hier sind wir regelmäßig bei Wind und Wetter bis ca. -5 Grad für dich da. Dein Vorteil: Du kaufst, was du siehst und worauf du in diesem Moment Lust hast, und kannst auch die Mengen ganz nach deinen Bedürfnissen anpassen.
 <p></p>
-Für die Teilnahme an den Schwärmereien ist eine unverbindliche Anmeldung und anschließende Vorbestellung erforderlich – bei den jeweiligen Verteilungen wird nur bereits bestellte Ware geliefert. Jede Schwärmerei bietet neben uns auch eine Auswahl anderer regionaler Produzenten an (Brot, Fleisch, Käse etc.).Dein Vorteil: Bestellung und Bezahlung laufen komplett online. Du brauchst am Tag der Verteilung nichts mehr entscheiden und sammelst nur noch ein, was du dir vorher in Ruhe Schönes ausgesucht hast. Du kannst auch jemanden schicken, der für dich abholt. Da alles, was wir für diese Verteilungen ernten, bereits bestellt und verkauft wurde, entstehen hier keinerlei Reste oder Abfälle."
+Zum anderen über Verteilungsorte der Marktschwärmer (www.marktschwärmer.de). Für die Teilnahme an den Schwärmereien ist eine unverbindliche Anmeldung und anschließende Vorbestellung erforderlich – bei den jeweiligen Verteilungen wird nur bereits bestellte Ware geliefert. Jede Schwärmerei bietet neben uns auch eine Auswahl anderer regionaler Produzenten an (Brot, Fleisch, Käse etc.).Dein Vorteil: Bestellung und Bezahlung laufen komplett online. Du brauchst am Tag der Verteilung nichts mehr entscheiden und sammelst nur noch ein, was du dir vorher in Ruhe Schönes ausgesucht hast. Du kannst auch jemanden schicken, der für dich abholt. Da alles, was wir für diese Verteilungen ernten, bereits bestellt und verkauft wurde, entstehen hier keinerlei Reste oder Abfälle."
 
 table01_header: DIREKTVERKAUF
 table01:

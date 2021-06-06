@@ -24,7 +24,7 @@ export default {
     },
     header: {
       type: String,
-      default: 'welcome',
+      default: ' ',
       required: false,
     },
   },
