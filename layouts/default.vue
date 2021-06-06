@@ -15,7 +15,7 @@
       <SideBar></SideBar>
       <div class="logo">
         <h1>
-          <img src="/img/logo.svg" alt="logo" />
+          <img src="/img/logo_white.svg" alt="logo" />
         </h1>
       </div>
     </div>

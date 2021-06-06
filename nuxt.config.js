@@ -19,9 +19,11 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Hier kannst du alles erfahren, was es rund um deine Bio-Gärtnerei an der Stadtgrenze zu Berlin zu wissen gibt',
+        content:
+          'Hier kannst du alles erfahren, was es rund um deine Bio-Gärtnerei an der Stadtgrenze zu Berlin zu wissen gibt',
       },
     ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Global CSS
