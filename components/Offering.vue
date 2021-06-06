@@ -6,6 +6,9 @@
       :header="data.header_text"
     />
     <TextBox :textHeader="data.text01_header" :textContent="data.text01" />
+    <div class="text-box">
+      <img class="graphic wrapper" src="/img/grafics/season_calender.jpg" />
+    </div>
     <Gallery :imageHeader="data.gallery_text" :images="data.gallery_img" />
     <TextBox :textHeader="data.text02_header" :textContent="data.text02" />
     <TextBox :textHeader="data.text03_header" :textContent="data.text03" />
