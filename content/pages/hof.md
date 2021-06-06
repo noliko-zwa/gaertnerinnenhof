@@ -18,20 +18,16 @@ Aus diesen Gründen steht im Zentrum unserer Arbeit immer die Interaktion zwisch
 Nachhaltiger Gemüsebau ist also mehr als der bloße Verzicht auf synthetische Dünger und Pflanzenschutzmittel. Das Leitmotiv für alle unsere betrieblichen Prozesse ist die Förderung des Bodenlebens sowie die Steigerung der Humusgehalte und der langfristigen Bodenfruchtbarkeit. Nur so können wir auf Dauer Ernten von höchster Qualität für dich erzeugen und unser Ackerland auch für zukünftige Generationen als Lebensgrundlage erhalten. 
 
 <p></p>
-
-	⁃	Weitestgehender Verzicht auf betriebsfremde Düngemittel. Kein Mist. Kein Kompost. Keine Tierhaar- und Horn-Produkte. Ernährung der Pflanzen größtenteils aus dem Bodenstoffwechsel heraus
-<br/>
-	⁃	Ganzjährig und vielfältig bewachsener Acker (Gründüngung, Untersaaten) zur Fütterung des Bodenlebens und Kohlenstoffspeicherung
-<br/>
-	⁃	Minimierte Bodenbearbeitung zur Schonung der Lebensfunktionen des Bodens 
-<br/>
-	⁃	Verwendung von selbst erzeugten milchsauren Pflanzenfermenten bei der Bodenbearbeitung zur Stärkung des Bodenlebens
-<br/>
-	⁃	Prävention gegen Schädlingsbefall und Krankheiten (z.B. durch Vitalisierung unserer Kulturen mit eigenem Komposttee) statt Bekämpfung dieser
-<br/>
-	⁃	Einbindung unserer Arbeit in die natürlichen Lebensprozesse – Motto: Fördern statt kontrollieren
+Konkret bedeutet das für unsere Wirtschaftsweise:
+den weitestgehenden Verzicht auf betriebsfremde Düngemittel. Kein Mist. Kein Kompost. Keine Tierhaar- und Horn-Produkte. Die Ernährung der Pflanzen geschieht größtenteils aus dem Bodenstoffwechsel heraus.
+einen ganzjährig und vielfältig bewachsenen Acker (Gründüngung, Untersaaten) zur Fütterung des Bodenlebens und Kohlenstoffspeicherung.
+eine minimierte Bodenbearbeitung zur Schonung der Lebensfunktionen des Bodens.
 <p></p>
-
+die Verwendung von selbst erzeugten milchsauren Pflanzenfermenten bei der Bodenbearbeitung zur Stärkung des Bodenlebens.
+Prävention gegen Schädlingsbefall und Krankheiten (z.B. durch Vitalisierung unserer Kulturen mit eigenem Komposttee) statt Bekämpfung dieser.
+<br/>
+und die Einbindung unserer Arbeit in die natürlichen Lebensprozesse – nach dem Motto: Fördern statt kontrollieren.
+<p></p>
 Wir freuen uns sehr, uns nach einer langen und durchaus erfolgreichen Zeit in der ökologischen Produktion nun weiterzuentwickeln. Nachhaltigkeit ist unser nächster großer Schritt nach vorne.
 Du willst mehr über regenerative (nachhaltige) Landwirtschaft und die ersten Ansätze dafür lernen? Zum Beispiel hier:"
 
